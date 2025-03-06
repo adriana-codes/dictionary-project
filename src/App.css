@@ -1,0 +1,17 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  margin: 30px;
+}
+
+.App-header .Dictionary-logo {
+  max-width: 125px;
+  display: block;
+  margin: 0 auto;
+}
+
+.App h1 {
+  font-weight: 800;
+}
