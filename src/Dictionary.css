@@ -1,5 +1,16 @@
 .Dictionary {
-  display: block;
+  max-width: 960px;
   margin: 0 auto;
   background-color: white;
+}
+
+.Dictionary .search-input {
+  display: block;
+  color: #666666;
+  font-size: 18px;
+  line-height: 21px;
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  width: 100%;
 }

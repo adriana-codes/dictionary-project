@@ -1,3 +1,10 @@
+.App {
+  font-family: Questrial;
+}
+.App h1 {
+  font-family: Gasoek One;
+}
+
 .App-header {
   margin: 30px;
 }

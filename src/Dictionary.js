@@ -27,7 +27,12 @@ function Dictionary() {
   return (
     <div className="Dictionary">
       <form onSubmit={search}>
-        <input type="search" id="dictionary-bar" onChange={handleChange} />
+        <input
+          type="search"
+          id="dictionary-bar"
+          className="search-input"
+          onChange={handleChange}
+        />
       </form>
       <Results results={results} />
     </div>
