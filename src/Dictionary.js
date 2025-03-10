@@ -34,6 +34,7 @@ function Dictionary() {
           onChange={handleChange}
         />
       </form>
+      <small>suggested words: wine, pasta, bread...</small>
       <Results results={results} />
     </div>
   );
