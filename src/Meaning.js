@@ -8,12 +8,8 @@ function Meaning(props) {
       <div className="Meaning">
         <section>
           <h4>{props.meaning.partOfSpeech}</h4>
-          <p>
-            {props.meaning.definition}
-            <br />
-
-            <em>{props.meaning.example}</em>
-          </p>
+          <div className="Definition">{props.meaning.definition}</div>
+          <div className="Example">{props.meaning.example}</div>
           <Synonyms synonyms={props.meaning.synonyms} />
         </section>
       </div>

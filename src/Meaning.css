@@ -2,3 +2,9 @@
   font-size: 1.3em;
   color: #f65282;
 }
+
+.Meaning .Example {
+  font-size: 0.8em;
+  color: #b7b7b7;
+  font-style: italic;
+}
