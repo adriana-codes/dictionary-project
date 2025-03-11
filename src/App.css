@@ -1,8 +1,14 @@
+body {
+  background-color: #d3dbe7 !important;
+}
+
 .App {
   font-family: Questrial;
+  margin: 40px;
 }
 .App h1 {
   font-family: Gasoek One;
+  color: #17184b;
 }
 
 .App-header {
@@ -10,17 +16,22 @@
 }
 
 .App-header .Dictionary-logo {
-  max-width: 125px;
   display: block;
+  max-width: 115px;
   margin: 0 auto;
 }
 
 .App h1 {
   font-weight: 800;
+  justify-content: start;
 }
 
 .App-footer {
   font-size: 0.6em;
   opacity: 0.8;
   margin: 25px 0;
+}
+
+.App a {
+  color: #41bfd0;
 }

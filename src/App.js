@@ -28,7 +28,8 @@ function App() {
         <Dictionary />
       </main>
       <footer className="App-footer text-center">
-        Open sourced project by Adri Díaz hosted on Netlify
+        <a href="/">Open sourced</a> project by <a href="/">Adri Díaz</a>👩🏻‍💻
+        hosted on <a href="/">Netlify</a>
       </footer>
     </div>
   );

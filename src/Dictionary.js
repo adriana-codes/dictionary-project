@@ -8,7 +8,6 @@ function Dictionary() {
   let [results, setResults] = useState(null);
 
   function handleResponse(response) {
-    console.log(response.data);
     setResults(response.data);
   }
 
@@ -26,15 +25,19 @@ function Dictionary() {
 
   return (
     <div className="Dictionary">
-      <form onSubmit={search}>
-        <input
-          type="search"
-          id="dictionary-bar"
-          className="search-input"
-          onChange={handleChange}
-        />
-      </form>
-      <small>suggested words: wine, pasta, bread...</small>
+      <section>
+        <form onSubmit={search}>
+          <input
+            type="search"
+            id="dictionary-bar"
+            className="search-input"
+            onChange={handleChange}
+          />
+        </form>
+        <div className="hint">
+          <small>suggested words: wine, cheese, bread...</small>
+        </div>
+      </section>
       <Results results={results} />
     </div>
   );
