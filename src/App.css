@@ -4,7 +4,8 @@ body {
 
 .App {
   font-family: Questrial;
-  margin: 40px;
+  max-width: 960px;
+  margin: 0 auto;
 }
 .App h1 {
   font-family: Gasoek One;
