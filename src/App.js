@@ -10,11 +10,13 @@ function App() {
       <header className="App-header">
         <div className="row align-items-center justify-content-center">
           <div className="col-3">
-            <img
-              src={dictionary}
-              className="Dictionary-logo img-fluid"
-              alt="Dictionary logo"
-            />
+            <a href="/" target="_self" rel="noreferrer">
+              <img
+                src={dictionary}
+                className="Dictionary-logo img-fluid"
+                alt="Dictionary logo"
+              />
+            </a>
           </div>
           <div className="col-4 m-3 justify-content-start">
             <h1>
