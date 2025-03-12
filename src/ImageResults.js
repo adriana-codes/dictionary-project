@@ -8,7 +8,7 @@ function ImageResults(props) {
         <div className="row">
           {props.results.map(function (image, index) {
             return (
-              <div className="col-4 mb-1">
+              <div className="col-4">
                 <img
                   src={image.src.landscape}
                   alt={image.alt}
